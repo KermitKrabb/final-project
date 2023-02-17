@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Nav Bar */
+ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 1px 5px 4px rgb(39, 39, 39);
+    position: sticky;
+    background-color: rgb(219, 36, 94);
+    width: 150px;
+    height: 300px;
+    top: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0 0 5px;
+    float: left;
+}
+li a{  
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover {
+    background-color: bisque;
+}
+
+
+main {
+    background-color: rgb(137, 50, 78);  
+    height: auto;  
+}
+
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(19, 1, 109);
+    height: 100px;
+}
+
+
+/*       Classes      */
+
+.border {
+    border: 2px solid black;
+}
+
+.heroimageHome {
+    background-image: url(../images/me.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.heroimageAbout {
+    background-image: url(../images/AboutMeImg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.heroimageWork {
+    background-image: url(../images/Work.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.heroimageContact {
+    background-image: url(../images/Contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.paddingleft{
+    padding: 10px 60px 0px 165px;
+}
+
+.maintext {
+    padding: 15px;
+    background: linear-gradient(#f3f3f3, #7b7b7b);
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.gif {
+    background-image: url(../images/phoneCall.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+.logoimg {  
+    height: auto;
+    width: 60px;
+    text-align: right;
+}
+
+.logobox{
+    text-align: right;
+    padding-top: 200px;
+}
+
+.flexfoot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Font Awesome css */
+.fa-brands {
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.fa-brands:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f {
+    background: #3B5998;
+    color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
